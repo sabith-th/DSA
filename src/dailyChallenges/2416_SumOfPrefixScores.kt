@@ -1,8 +1,5 @@
 package dailyChallenges
 
-import kotlin.test.assertEquals
-
-
 class SumOfPrefixScores {
     class TrieNode {
         val children = Array<TrieNode?>(26) { null }
